@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/occam.iml" filepath="$PROJECT_DIR$/.idea/occam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/occam-core/occam-core.iml" filepath="$PROJECT_DIR$/occam-core/occam-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/occam-example/occam-example.iml" filepath="$PROJECT_DIR$/occam-example/occam-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/occam-infra/occam-infra.iml" filepath="$PROJECT_DIR$/occam-infra/occam-infra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/occam-servlet/occam-servlet.iml" filepath="$PROJECT_DIR$/occam-servlet/occam-servlet.iml" />
     </modules>
   </component>
 </project>

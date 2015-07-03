@@ -1,0 +1,4 @@
+<operations>
+	<operation name="matematica"
+		class="br.senac.sp.exemplo.operations.CalculatorOperation" />
+</operations>

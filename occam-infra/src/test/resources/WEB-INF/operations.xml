@@ -1,4 +1,0 @@
-<operations>
-	<operation name="cadastroAluno" class="br.senac.sp.occam.example.control.CadastroAluno" />
-	<operation name="cadastroCurso" class="br.senac.sp.occam.example.control.CadastroCurso" />
-</operations>
