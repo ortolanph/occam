@@ -1,28 +1,23 @@
-occam
-=====
+# Occam
 
-Occam Framework é um projeto acadêmico para um framework web simples com injeção de dependências.
-
-
-Occam
-
-Apresentação
+## Apresentação
 
 Occam é um framework web acadêmico desenvolvido como um trabalho em grupo do curso de Tecnologias e Arquiteturas na Construção de Software do SENAC. A disciplina era a de Design Arquitetural de Software OO e como trabalho final, toda a turma foi envolvida na construção de uma aplicação web. Foram divididos três grupos para construir essa aplicação web. Um dos grupos, no qual me encontrava, era para fazer o framework web. Surgia assim o framework Occam.
 
 Como requisitos para a construção do framework, foram listados:
 
-Injeção de Dependências
-Inversão de Controle
+1. Injeção de Dependências
+2. Inversão de Controle
 
 De posse dos requisitos, comecei a pensar em como construir o framework. A primeira coisa que pensei foi:  "Devo fazer o mais simples possível!". Daí o nome: Occam em homenagem à Navalha de Occam, como na citação extraída da Wikipedia:
-Se em tudo o mais forem idênticas as várias explicações de um fenômeno, a mais simples é a melhor
-Conceitos
 
+Se em tudo o mais forem idênticas as várias explicações de um fenômeno, a mais simples é a melhor
+
+## Conceitos
 
 Comecei a me lembrar de todos os frameworks web com os quais já trabalhei e pensei na tecnologia PUSH. Como algo simples, pensei em imitar o STRUTS com um servlet que processa todas as chamadas de um padrão URL. O que está depois dessa porta de entrada é o mais interessante.
 
-Porta de Entrada
+### Porta de Entrada
 
 No framework, tudo é uma Operacao. Seu POJO é anotado com @Operation, transformando em uma operação do Occam. O desenvolvedor ainda pode configurar se a Operação que está desenvolvendo é SINGLETON, ou seja, possui uma instancia única durante o tempo de execução do sistema, ou PROTOTYPE, ou seja, a cada request, cria uma nova instância da classe de Operação.
 
@@ -87,22 +82,21 @@ Hello, World: O exemplo que não podia faltar!
 Por que usar Occam?
 
 
-Framework leve
-Fácil de configurar
-Fácil de implementar
-Free!
+1. Framework leve
+2. Fácil de configurar
+3. Fácil de implementar
+4. Free!
 
-Por que NÃO usar Occam?
+### Por que NÃO usar Occam?
 
-
-Possui falhas
-Não possui um sistema de Exceptions muito bem definido
-O Service Locator não clona instâncias, portanto instâncias são reutilizadas
-Não possui um conversor para Array
-O conversor de datas não permite outro formato
-Não possui redirecionamentos customizados
-É acadêmico e não sei quando darei manutenção nele
-Mais um framework web, pra quê?
+1. Possui falhas
+2. Não possui um sistema de Exceptions muito bem definido
+3. O Service Locator não clona instâncias, portanto instâncias são reutilizadas
+4. Não possui um conversor para Array
+5. O conversor de datas não permite outro formato
+6. Não possui redirecionamentos customizados
+7. É acadêmico e não sei quando darei manutenção nele
+8. Mais um framework web, pra quê?
 
 Algumas outras coisas...
 
