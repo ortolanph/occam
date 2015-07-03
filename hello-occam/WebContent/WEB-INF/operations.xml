@@ -1,4 +1,0 @@
-<operations>
-	<operation name="hello"
-		class="org.senac.sp.hellooccam.operation.SayHelloOperation" />
-</operations>

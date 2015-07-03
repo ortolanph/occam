@@ -1,4 +1,6 @@
 <operations>
 	<operation name="matematica"
 		class="br.senac.sp.exemplo.operations.CalculatorOperation" />
+	<operation name="hello"
+			   class="org.senac.sp.hellooccam.operation.SayHelloOperation" />
 </operations>
