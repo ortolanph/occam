@@ -10,6 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>occam-core</artifactId>
+    <name>occam-core</name>
     <description>
         Occam Core
 
